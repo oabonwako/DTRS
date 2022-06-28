@@ -1,0 +1,49 @@
+﻿body {
+    background-image: url(PL.jpg);
+}
+
+form {
+    padding:20px;
+}
+
+
+#loginbox {
+    width: 320px;
+    height: 440px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform:translate(-50%, -50%)
+}
+
+#loginbox input {
+    width: 290px;
+    margin-bottom: 20px;
+    outline: none;
+
+}
+
+#loginbox input[type="text"], input[type="password"] {
+    width: 290px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    background:border-box transparent;
+
+}
+
+#loginbox input[type="submit"]{
+    background-color: blue;
+    border-color: blue;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+    width: 200px
+}
+
+#loginbox input[type="submit"]:hover {
+    background-color: dodgerblue
+}

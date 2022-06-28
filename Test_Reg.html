@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<title>Register Form</title> 
+<meta name= " viewport" context="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="Register.css">
+</head>
+<body>
+    <div id="loginbox">
+        <form action="Done_Process.html" method="post" class="input-group-register">
+            <h1>Test Registration</h1>
+            <p>Username</p>
+            <input type="text" placeholder="Enter Username" name="email" required>
+            <p>Type of Test</p>
+            <input type="text" list="tests" placeholder="Type of Test" name="test" required>
+            <datalist id="tests">
+                <option>Theory Test</option>
+                <option>Yard Test</option>
+                <option>Road Test</option>
+            </datalist>
+            <h1>Payment</h1>
+            <p>Card Number</p>
+            <input type="text" placeholder="Enter Card Number" minlength="16" maxlength="16" required/>
+            <p>Branch Name</p>
+            <input type="text" placeholder="Enter Branch Name" required/>
+            <p>Car Type</p>
+            <input type="text" list="cardtype"placeholder="Card Type" required/>
+            <datalist id="cardtype">
+                <option>Debit</option>
+                <option>Credit</option>
+            </datalist>
+            <p>CVC</p>
+            <input type="number" placeholder="Enter CVC" minlength="3" maxlength="4" required/>
+            <input type="submit" value="Register"required>
+            <input type="submit" value="Cancel"required>
+            <a href="index.html">Back</a>
+        </form>
+    </div>
+</body>
+
+</html>

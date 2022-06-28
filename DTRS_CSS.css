@@ -1,0 +1,140 @@
+
+#container{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(background.jpg);}
+
+    #container
+    {  
+         max-width: 1500px;
+        margin: 10px;
+        padding-right: 20px;
+         padding-left:20px
+           }
+
+#topbar{
+    
+    width: 100%;
+    border-width: 95%;
+    border-color: black;
+    border-style: solid;
+    height: 220px;
+}
+
+#title { font-size: 30px;
+    padding-left: -15px;
+    padding-right: 65px;
+    margin-top: -90px;
+    text-align: right
+    ;}
+
+#nav{background-color: #757577;
+    font-size:18px;
+    padding-left: -10px;
+    text-align: center;
+    display:inline;}
+
+
+    #body {
+        padding-left: 270px;
+        padding-top: 120px;
+        padding-bottom: 60px;
+        word-spacing: 400px;
+    }
+.button{ 
+    background-color:blue ;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    margin-left: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px
+}
+.button:hover{background-color: #03a9f4;}
+
+#footer{padding-top: 5px;
+    width: 100%;
+    border-color: black;
+    border-style: solid;
+    height: 140px;
+    clear:both;
+    font-size: 13px;
+}
+#location{text-align: right;}
+
+#socials{ 
+    clear: both;
+    width: 55px ;
+    height: 50px;
+    padding-left: 50px;
+    margin-top: -120px
+      }
+
+#table, th, td{
+    border: solid;
+    color: black;
+    word-spacing: 10px;
+}
+
+p { font-family: 'Times New Roman', Times, serif;
+font-size: 17px;}
+
+#calender {list-style-type: none;
+    font-family: Verdana, sans-serif;}
+
+#month {
+  padding: 70px 25px;
+  width: 97%;
+  background: #757575;
+  text-align: center;
+}
+
+#month ul {
+  margin: 0;
+  padding: 0;
+}
+
+#month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #eee;
+}
+
+#weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+
+#days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+#days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+#days li .active {
+  padding: 5px;
+  background:#757575;
+  color: #2196f3 !important
+}
+
+#testing{background-color: #2196f3;
+background-size: 5px;}

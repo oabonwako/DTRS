@@ -1,0 +1,45 @@
+﻿body {
+    background-image: url(3dikgosi.jpg);
+}
+
+form {
+    padding:20px;
+}
+
+
+#loginbox {
+    width: 320px;
+    height: 890px;
+    background-color: white;
+    margin-left: 39%
+}
+
+#loginbox input {
+    width: 290px;
+    margin-bottom: 20px;
+    outline: none;
+
+}
+
+    #loginbox input[type="text"], input[type="password"], input[type="number"], input[type="email"] {
+        width: 290px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid grey;
+        background: border-box transparent;
+    }
+
+#loginbox input[type="submit"]{
+    background-color: blue;
+    border-color: blue;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+    width: 200px
+}
+
+#loginbox input[type="submit"]:hover {
+    background-color: dodgerblue
+}

@@ -1,0 +1,199 @@
+﻿#container {
+    background-color: white
+}
+
+
+#logobar {
+    display:flex;
+    background-color: white
+}
+
+#logobar p {
+    font-size: 40px
+}
+
+#banner {
+    
+}
+
+#top {
+    background-color: white;
+    border-bottom: 3px solid deepskyblue;
+    padding: 15px;
+    display: flex
+}
+
+#toplinks {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    margin-top: 8px;
+    height: 50px
+}
+
+#button a {
+
+    color: dimgray;
+    margin: 5px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#button a:hover {
+    border-bottom: 5px solid black
+}
+
+
+#click a {
+    background-color: deepskyblue;
+    color: black;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    width: 50px;
+    margin-left: 250px
+}
+
+#click a:hover {
+    background-color: grey
+}
+
+#boxheader {
+    font-size: 55pt;
+    font-family: Arial,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif margin: 5px;
+    margin: 5px;
+    padding: 8px
+}
+
+#boxtext {
+    font-size: 20pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif margin: 5px;
+    padding: 8px
+}
+
+section {
+    background-color: yellow;
+    margin: 10px;
+    display:flex;
+    flex:1;
+    justify-content:space-between
+}
+
+section > * {
+    background-color: ghostwhite;
+    flex-basis:50%;
+    height: 470px;
+}
+
+#left {
+    background-color: ghostwhite
+}
+
+#right {
+    background-color: ghostwhite
+}
+
+#socials {
+    clear: both;
+    width: 55px;
+    height: 50px;
+    padding-left: 50px;
+    margin-top: -120px
+}
+
+#calender {list-style-type: none;
+    font-family: Verdana, sans-serif;}
+
+#month {
+  padding: 70px 25px;
+  width: 97%;
+  background: #757575;
+  text-align: center;
+}
+
+#month ul {
+  margin: 0;
+  padding: 0;
+}
+
+#month ul li {
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #eee;
+}
+
+#weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+
+#days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+#days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+#days li .active {
+  padding: 5px;
+  background:#757575;
+  color: #2196f3 !important
+}
+
+#footer {
+    padding-top: 5px;
+    height: 140px;
+    clear: both;
+    font-size: 20px;
+    border-top: 3px dashed black
+}
+
+table  {
+    width: 100%;
+
+}
+
+table :nth-child(2)  {
+    color: deepskyblue
+}
+
+th  {
+    font-size: 20px;
+    background-color: lightgray
+}
+
+h3  {
+    font-family: Verdana;
+    font-size: 50px
+}
+
+#right p {
+    font-family:Arial;
+    font-size: 20px
+}
+
+#footer {
+    background-color:lightgray;
+    height:200px
+}
